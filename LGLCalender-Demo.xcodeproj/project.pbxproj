@@ -1,0 +1,584 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		21B476D81DADE6E8003B5129 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 21B476D71DADE6E8003B5129 /* main.m */; };
+		21B476DB1DADE6E8003B5129 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 21B476DA1DADE6E8003B5129 /* AppDelegate.m */; };
+		21B476DE1DADE6E8003B5129 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 21B476DD1DADE6E8003B5129 /* ViewController.m */; };
+		21B476E11DADE6E8003B5129 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 21B476DF1DADE6E8003B5129 /* Main.storyboard */; };
+		21B476E31DADE6E8003B5129 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 21B476E21DADE6E8003B5129 /* Assets.xcassets */; };
+		21B476E61DADE6E8003B5129 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 21B476E41DADE6E8003B5129 /* LaunchScreen.storyboard */; };
+		21B476F11DADE6E8003B5129 /* LGLCalender_DemoTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 21B476F01DADE6E8003B5129 /* LGLCalender_DemoTests.m */; };
+		21B476FC1DADE6E8003B5129 /* LGLCalender_DemoUITests.m in Sources */ = {isa = PBXBuildFile; fileRef = 21B476FB1DADE6E8003B5129 /* LGLCalender_DemoUITests.m */; };
+		21B4771A1DADE707003B5129 /* LGLCalendarDate.m in Sources */ = {isa = PBXBuildFile; fileRef = 21B4770B1DADE707003B5129 /* LGLCalendarDate.m */; };
+		21B4771B1DADE707003B5129 /* LGLCalenderCell.m in Sources */ = {isa = PBXBuildFile; fileRef = 21B4770D1DADE707003B5129 /* LGLCalenderCell.m */; };
+		21B4771C1DADE707003B5129 /* LGLCalenderModel.m in Sources */ = {isa = PBXBuildFile; fileRef = 21B4770F1DADE707003B5129 /* LGLCalenderModel.m */; };
+		21B4771D1DADE707003B5129 /* LGLCalenderSubModel.m in Sources */ = {isa = PBXBuildFile; fileRef = 21B477111DADE707003B5129 /* LGLCalenderSubModel.m */; };
+		21B4771E1DADE707003B5129 /* LGLCalenderViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 21B477131DADE707003B5129 /* LGLCalenderViewController.m */; };
+		21B4771F1DADE707003B5129 /* LGLHeaderView.m in Sources */ = {isa = PBXBuildFile; fileRef = 21B477151DADE707003B5129 /* LGLHeaderView.m */; };
+		21B477201DADE707003B5129 /* LGLWeekView.m in Sources */ = {isa = PBXBuildFile; fileRef = 21B477171DADE707003B5129 /* LGLWeekView.m */; };
+		21B477211DADE707003B5129 /* UIView+Frame.m in Sources */ = {isa = PBXBuildFile; fileRef = 21B477191DADE707003B5129 /* UIView+Frame.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		21B476ED1DADE6E8003B5129 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 21B476CB1DADE6E8003B5129 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 21B476D21DADE6E8003B5129;
+			remoteInfo = "LGLCalender-Demo";
+		};
+		21B476F81DADE6E8003B5129 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 21B476CB1DADE6E8003B5129 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 21B476D21DADE6E8003B5129;
+			remoteInfo = "LGLCalender-Demo";
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		21B476D31DADE6E8003B5129 /* LGLCalender-Demo.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "LGLCalender-Demo.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		21B476D71DADE6E8003B5129 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		21B476D91DADE6E8003B5129 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		21B476DA1DADE6E8003B5129 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		21B476DC1DADE6E8003B5129 /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
+		21B476DD1DADE6E8003B5129 /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
+		21B476E01DADE6E8003B5129 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		21B476E21DADE6E8003B5129 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		21B476E51DADE6E8003B5129 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		21B476E71DADE6E8003B5129 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		21B476EC1DADE6E8003B5129 /* LGLCalender-DemoTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "LGLCalender-DemoTests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		21B476F01DADE6E8003B5129 /* LGLCalender_DemoTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = LGLCalender_DemoTests.m; sourceTree = "<group>"; };
+		21B476F21DADE6E8003B5129 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		21B476F71DADE6E8003B5129 /* LGLCalender-DemoUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "LGLCalender-DemoUITests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		21B476FB1DADE6E8003B5129 /* LGLCalender_DemoUITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = LGLCalender_DemoUITests.m; sourceTree = "<group>"; };
+		21B476FD1DADE6E8003B5129 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		21B4770A1DADE707003B5129 /* LGLCalendarDate.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = LGLCalendarDate.h; sourceTree = "<group>"; };
+		21B4770B1DADE707003B5129 /* LGLCalendarDate.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = LGLCalendarDate.m; sourceTree = "<group>"; };
+		21B4770C1DADE707003B5129 /* LGLCalenderCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = LGLCalenderCell.h; sourceTree = "<group>"; };
+		21B4770D1DADE707003B5129 /* LGLCalenderCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = LGLCalenderCell.m; sourceTree = "<group>"; };
+		21B4770E1DADE707003B5129 /* LGLCalenderModel.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = LGLCalenderModel.h; sourceTree = "<group>"; };
+		21B4770F1DADE707003B5129 /* LGLCalenderModel.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = LGLCalenderModel.m; sourceTree = "<group>"; };
+		21B477101DADE707003B5129 /* LGLCalenderSubModel.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = LGLCalenderSubModel.h; sourceTree = "<group>"; };
+		21B477111DADE707003B5129 /* LGLCalenderSubModel.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = LGLCalenderSubModel.m; sourceTree = "<group>"; };
+		21B477121DADE707003B5129 /* LGLCalenderViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = LGLCalenderViewController.h; sourceTree = "<group>"; };
+		21B477131DADE707003B5129 /* LGLCalenderViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = LGLCalenderViewController.m; sourceTree = "<group>"; };
+		21B477141DADE707003B5129 /* LGLHeaderView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = LGLHeaderView.h; sourceTree = "<group>"; };
+		21B477151DADE707003B5129 /* LGLHeaderView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = LGLHeaderView.m; sourceTree = "<group>"; };
+		21B477161DADE707003B5129 /* LGLWeekView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = LGLWeekView.h; sourceTree = "<group>"; };
+		21B477171DADE707003B5129 /* LGLWeekView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = LGLWeekView.m; sourceTree = "<group>"; };
+		21B477181DADE707003B5129 /* UIView+Frame.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIView+Frame.h"; sourceTree = "<group>"; };
+		21B477191DADE707003B5129 /* UIView+Frame.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIView+Frame.m"; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		21B476D01DADE6E8003B5129 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		21B476E91DADE6E8003B5129 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		21B476F41DADE6E8003B5129 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		21B476CA1DADE6E8003B5129 = {
+			isa = PBXGroup;
+			children = (
+				21B476D51DADE6E8003B5129 /* LGLCalender-Demo */,
+				21B476EF1DADE6E8003B5129 /* LGLCalender-DemoTests */,
+				21B476FA1DADE6E8003B5129 /* LGLCalender-DemoUITests */,
+				21B476D41DADE6E8003B5129 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		21B476D41DADE6E8003B5129 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				21B476D31DADE6E8003B5129 /* LGLCalender-Demo.app */,
+				21B476EC1DADE6E8003B5129 /* LGLCalender-DemoTests.xctest */,
+				21B476F71DADE6E8003B5129 /* LGLCalender-DemoUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		21B476D51DADE6E8003B5129 /* LGLCalender-Demo */ = {
+			isa = PBXGroup;
+			children = (
+				21B476D91DADE6E8003B5129 /* AppDelegate.h */,
+				21B476DA1DADE6E8003B5129 /* AppDelegate.m */,
+				21B476DC1DADE6E8003B5129 /* ViewController.h */,
+				21B476DD1DADE6E8003B5129 /* ViewController.m */,
+				21B476DF1DADE6E8003B5129 /* Main.storyboard */,
+				21B476E21DADE6E8003B5129 /* Assets.xcassets */,
+				21B477091DADE707003B5129 /* LGLCalender */,
+				21B476E41DADE6E8003B5129 /* LaunchScreen.storyboard */,
+				21B476E71DADE6E8003B5129 /* Info.plist */,
+				21B476D61DADE6E8003B5129 /* Supporting Files */,
+			);
+			path = "LGLCalender-Demo";
+			sourceTree = "<group>";
+		};
+		21B476D61DADE6E8003B5129 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				21B476D71DADE6E8003B5129 /* main.m */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		21B476EF1DADE6E8003B5129 /* LGLCalender-DemoTests */ = {
+			isa = PBXGroup;
+			children = (
+				21B476F01DADE6E8003B5129 /* LGLCalender_DemoTests.m */,
+				21B476F21DADE6E8003B5129 /* Info.plist */,
+			);
+			path = "LGLCalender-DemoTests";
+			sourceTree = "<group>";
+		};
+		21B476FA1DADE6E8003B5129 /* LGLCalender-DemoUITests */ = {
+			isa = PBXGroup;
+			children = (
+				21B476FB1DADE6E8003B5129 /* LGLCalender_DemoUITests.m */,
+				21B476FD1DADE6E8003B5129 /* Info.plist */,
+			);
+			path = "LGLCalender-DemoUITests";
+			sourceTree = "<group>";
+		};
+		21B477091DADE707003B5129 /* LGLCalender */ = {
+			isa = PBXGroup;
+			children = (
+				21B4770A1DADE707003B5129 /* LGLCalendarDate.h */,
+				21B4770B1DADE707003B5129 /* LGLCalendarDate.m */,
+				21B4770C1DADE707003B5129 /* LGLCalenderCell.h */,
+				21B4770D1DADE707003B5129 /* LGLCalenderCell.m */,
+				21B4770E1DADE707003B5129 /* LGLCalenderModel.h */,
+				21B4770F1DADE707003B5129 /* LGLCalenderModel.m */,
+				21B477101DADE707003B5129 /* LGLCalenderSubModel.h */,
+				21B477111DADE707003B5129 /* LGLCalenderSubModel.m */,
+				21B477121DADE707003B5129 /* LGLCalenderViewController.h */,
+				21B477131DADE707003B5129 /* LGLCalenderViewController.m */,
+				21B477141DADE707003B5129 /* LGLHeaderView.h */,
+				21B477151DADE707003B5129 /* LGLHeaderView.m */,
+				21B477161DADE707003B5129 /* LGLWeekView.h */,
+				21B477171DADE707003B5129 /* LGLWeekView.m */,
+				21B477181DADE707003B5129 /* UIView+Frame.h */,
+				21B477191DADE707003B5129 /* UIView+Frame.m */,
+			);
+			path = LGLCalender;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		21B476D21DADE6E8003B5129 /* LGLCalender-Demo */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 21B477001DADE6E8003B5129 /* Build configuration list for PBXNativeTarget "LGLCalender-Demo" */;
+			buildPhases = (
+				21B476CF1DADE6E8003B5129 /* Sources */,
+				21B476D01DADE6E8003B5129 /* Frameworks */,
+				21B476D11DADE6E8003B5129 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "LGLCalender-Demo";
+			productName = "LGLCalender-Demo";
+			productReference = 21B476D31DADE6E8003B5129 /* LGLCalender-Demo.app */;
+			productType = "com.apple.product-type.application";
+		};
+		21B476EB1DADE6E8003B5129 /* LGLCalender-DemoTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 21B477031DADE6E8003B5129 /* Build configuration list for PBXNativeTarget "LGLCalender-DemoTests" */;
+			buildPhases = (
+				21B476E81DADE6E8003B5129 /* Sources */,
+				21B476E91DADE6E8003B5129 /* Frameworks */,
+				21B476EA1DADE6E8003B5129 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				21B476EE1DADE6E8003B5129 /* PBXTargetDependency */,
+			);
+			name = "LGLCalender-DemoTests";
+			productName = "LGLCalender-DemoTests";
+			productReference = 21B476EC1DADE6E8003B5129 /* LGLCalender-DemoTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		21B476F61DADE6E8003B5129 /* LGLCalender-DemoUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 21B477061DADE6E8003B5129 /* Build configuration list for PBXNativeTarget "LGLCalender-DemoUITests" */;
+			buildPhases = (
+				21B476F31DADE6E8003B5129 /* Sources */,
+				21B476F41DADE6E8003B5129 /* Frameworks */,
+				21B476F51DADE6E8003B5129 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				21B476F91DADE6E8003B5129 /* PBXTargetDependency */,
+			);
+			name = "LGLCalender-DemoUITests";
+			productName = "LGLCalender-DemoUITests";
+			productReference = 21B476F71DADE6E8003B5129 /* LGLCalender-DemoUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		21B476CB1DADE6E8003B5129 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0800;
+				ORGANIZATIONNAME = "李国良";
+				TargetAttributes = {
+					21B476D21DADE6E8003B5129 = {
+						CreatedOnToolsVersion = 8.0;
+						ProvisioningStyle = Automatic;
+					};
+					21B476EB1DADE6E8003B5129 = {
+						CreatedOnToolsVersion = 8.0;
+						ProvisioningStyle = Automatic;
+						TestTargetID = 21B476D21DADE6E8003B5129;
+					};
+					21B476F61DADE6E8003B5129 = {
+						CreatedOnToolsVersion = 8.0;
+						ProvisioningStyle = Automatic;
+						TestTargetID = 21B476D21DADE6E8003B5129;
+					};
+				};
+			};
+			buildConfigurationList = 21B476CE1DADE6E8003B5129 /* Build configuration list for PBXProject "LGLCalender-Demo" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 21B476CA1DADE6E8003B5129;
+			productRefGroup = 21B476D41DADE6E8003B5129 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				21B476D21DADE6E8003B5129 /* LGLCalender-Demo */,
+				21B476EB1DADE6E8003B5129 /* LGLCalender-DemoTests */,
+				21B476F61DADE6E8003B5129 /* LGLCalender-DemoUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		21B476D11DADE6E8003B5129 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				21B476E61DADE6E8003B5129 /* LaunchScreen.storyboard in Resources */,
+				21B476E31DADE6E8003B5129 /* Assets.xcassets in Resources */,
+				21B476E11DADE6E8003B5129 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		21B476EA1DADE6E8003B5129 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		21B476F51DADE6E8003B5129 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		21B476CF1DADE6E8003B5129 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				21B477201DADE707003B5129 /* LGLWeekView.m in Sources */,
+				21B4771F1DADE707003B5129 /* LGLHeaderView.m in Sources */,
+				21B476DE1DADE6E8003B5129 /* ViewController.m in Sources */,
+				21B4771C1DADE707003B5129 /* LGLCalenderModel.m in Sources */,
+				21B4771E1DADE707003B5129 /* LGLCalenderViewController.m in Sources */,
+				21B476DB1DADE6E8003B5129 /* AppDelegate.m in Sources */,
+				21B4771B1DADE707003B5129 /* LGLCalenderCell.m in Sources */,
+				21B476D81DADE6E8003B5129 /* main.m in Sources */,
+				21B4771A1DADE707003B5129 /* LGLCalendarDate.m in Sources */,
+				21B4771D1DADE707003B5129 /* LGLCalenderSubModel.m in Sources */,
+				21B477211DADE707003B5129 /* UIView+Frame.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		21B476E81DADE6E8003B5129 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				21B476F11DADE6E8003B5129 /* LGLCalender_DemoTests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		21B476F31DADE6E8003B5129 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				21B476FC1DADE6E8003B5129 /* LGLCalender_DemoUITests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		21B476EE1DADE6E8003B5129 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 21B476D21DADE6E8003B5129 /* LGLCalender-Demo */;
+			targetProxy = 21B476ED1DADE6E8003B5129 /* PBXContainerItemProxy */;
+		};
+		21B476F91DADE6E8003B5129 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 21B476D21DADE6E8003B5129 /* LGLCalender-Demo */;
+			targetProxy = 21B476F81DADE6E8003B5129 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		21B476DF1DADE6E8003B5129 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				21B476E01DADE6E8003B5129 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		21B476E41DADE6E8003B5129 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				21B476E51DADE6E8003B5129 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		21B476FE1DADE6E8003B5129 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVES = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.3;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		21B476FF1DADE6E8003B5129 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVES = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.3;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		21B477011DADE6E8003B5129 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = "LGLCalender-Demo/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "Lijiangzhijiekeji.LGLCalender-Demo";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		21B477021DADE6E8003B5129 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = "LGLCalender-Demo/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "Lijiangzhijiekeji.LGLCalender-Demo";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+		21B477041DADE6E8003B5129 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				INFOPLIST_FILE = "LGLCalender-DemoTests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "Lijiangzhijiekeji.LGLCalender-DemoTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/LGLCalender-Demo.app/LGLCalender-Demo";
+			};
+			name = Debug;
+		};
+		21B477051DADE6E8003B5129 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				INFOPLIST_FILE = "LGLCalender-DemoTests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "Lijiangzhijiekeji.LGLCalender-DemoTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/LGLCalender-Demo.app/LGLCalender-Demo";
+			};
+			name = Release;
+		};
+		21B477071DADE6E8003B5129 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				INFOPLIST_FILE = "LGLCalender-DemoUITests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "Lijiangzhijiekeji.LGLCalender-DemoUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_TARGET_NAME = "LGLCalender-Demo";
+			};
+			name = Debug;
+		};
+		21B477081DADE6E8003B5129 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				INFOPLIST_FILE = "LGLCalender-DemoUITests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "Lijiangzhijiekeji.LGLCalender-DemoUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_TARGET_NAME = "LGLCalender-Demo";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		21B476CE1DADE6E8003B5129 /* Build configuration list for PBXProject "LGLCalender-Demo" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				21B476FE1DADE6E8003B5129 /* Debug */,
+				21B476FF1DADE6E8003B5129 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		21B477001DADE6E8003B5129 /* Build configuration list for PBXNativeTarget "LGLCalender-Demo" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				21B477011DADE6E8003B5129 /* Debug */,
+				21B477021DADE6E8003B5129 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		21B477031DADE6E8003B5129 /* Build configuration list for PBXNativeTarget "LGLCalender-DemoTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				21B477041DADE6E8003B5129 /* Debug */,
+				21B477051DADE6E8003B5129 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		21B477061DADE6E8003B5129 /* Build configuration list for PBXNativeTarget "LGLCalender-DemoUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				21B477071DADE6E8003B5129 /* Debug */,
+				21B477081DADE6E8003B5129 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 21B476CB1DADE6E8003B5129 /* Project object */;
+}
