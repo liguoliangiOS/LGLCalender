@@ -123,7 +123,7 @@
             if ((model.year == _year) && (model.month == _month) && (subModel.day < _day)) {
                 cell.backgroundColor = LGLColor(214, 214, 214);
                 cell.dateL.textColor = [UIColor lightGrayColor];
-                cell.priceL.textColor = [UIColor lightGrayColor];
+                cell.priceL.textColor = LGLColor(236, 236, 236);//[UIColor lightGrayColor];
                 cell.userInteractionEnabled = NO;
             }
         }
