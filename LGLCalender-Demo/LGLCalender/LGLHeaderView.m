@@ -20,7 +20,7 @@
         self.dateL.textAlignment = NSTextAlignmentCenter;
         self.dateL.textColor = [UIColor blackColor];
         self.dateL.font = [UIFont systemFontOfSize:14];
-        self.dateL.backgroundColor = LGLColor(236, 236, 236);
+        self.dateL.backgroundColor = LGLColor(230, 230, 230);
         [self addSubview:self.dateL];
         
         UIView * view = [[UIView alloc] initWithFrame:CGRectMake(0, frame.size.height - 5, WIDTH, 5)];

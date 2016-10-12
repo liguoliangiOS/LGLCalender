@@ -114,18 +114,21 @@
             LGLCalenderSubModel * subModel = model.details[index];
             cell.dateL.text = [NSString stringWithFormat:@"%ld",(long)subModel.day];
             cell.priceL.text = [NSString stringWithFormat:@"￥%@", subModel.price];
+            cell.backgroundColor = LGLColor(244, 243, 231);
             if ((model.year == _year) && (model.month == _month) && (subModel.day == _day))  {
-                cell.layer.masksToBounds = YES;
-                cell.layer.cornerRadius = (WIDTH / 7) / 2;
                 cell.backgroundColor =  LGLColor(65, 207, 79);
             }
             
             if ((model.year == _year) && (model.month == _month) && (subModel.day < _day)) {
-                cell.backgroundColor = LGLColor(214, 214, 214);
+                cell.backgroundColor = LGLColor(239, 239, 239);
                 cell.dateL.textColor = [UIColor lightGrayColor];
-                cell.priceL.textColor = LGLColor(236, 236, 236);//[UIColor lightGrayColor];
+                cell.priceL.textColor = LGLColor(239, 239, 239);//[UIColor lightGrayColor];
+                cell.priceL.textColor = [UIColor lightGrayColor];
                 cell.userInteractionEnabled = NO;
             }
+        } else {
+            cell.userInteractionEnabled = NO;
+        
         }
     }
     return cell;

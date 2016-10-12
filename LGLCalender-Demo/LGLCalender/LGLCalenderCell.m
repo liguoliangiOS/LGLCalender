@@ -14,6 +14,8 @@
 {
     self = [super initWithFrame:frame];
     if (self) {
+        self.layer.masksToBounds = YES;
+        self.layer.cornerRadius = 8;
         self.dateL = [[UILabel  alloc] initWithFrame:CGRectMake(0, 0, self.width, 16)];
         self.dateL.textAlignment = NSTextAlignmentCenter;
         self.dateL.backgroundColor = [UIColor clearColor];
@@ -23,7 +25,7 @@
         self.priceL.textAlignment = NSTextAlignmentCenter;
         self.priceL.backgroundColor = [UIColor clearColor];
         self.priceL.textColor = [UIColor redColor];
-        self.priceL.font = [UIFont systemFontOfSize:10];
+        self.priceL.font = [UIFont systemFontOfSize:12];
         
         [self addSubview:self.dateL];
         [self addSubview:self.priceL];
