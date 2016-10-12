@@ -16,16 +16,12 @@
 - (instancetype)initWithFrame:(CGRect)frame {
     self = [super initWithFrame:frame];
     if (self) {
-        self.dateL = [[UILabel alloc] initWithFrame:CGRectMake(0, 1, WIDTH, frame.size.height - 7)];
+        self.dateL = [[UILabel alloc] initWithFrame:CGRectMake(0, 0, WIDTH, frame.size.height)];
         self.dateL.textAlignment = NSTextAlignmentCenter;
         self.dateL.textColor = [UIColor blackColor];
-        self.dateL.font = [UIFont systemFontOfSize:14];
+        self.dateL.font = [UIFont systemFontOfSize:16];
         self.dateL.backgroundColor = LGLColor(230, 230, 230);
         [self addSubview:self.dateL];
-        
-        UIView * view = [[UIView alloc] initWithFrame:CGRectMake(0, frame.size.height - 5, WIDTH, 5)];
-        view.backgroundColor = [UIColor whiteColor];
-        [self addSubview:view];
     }
     return self;
 }

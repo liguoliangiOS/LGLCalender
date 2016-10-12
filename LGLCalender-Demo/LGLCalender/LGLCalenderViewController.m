@@ -13,6 +13,8 @@
 #import "LGLCalenderSubModel.h"
 #import "LGLCalendarDate.h"
 #import "LGLWeekView.h"
+
+#import "XLPlainFlowLayout.h"
 #define WIDTH [UIScreen mainScreen].bounds.size.width
 #define HEIGHT [UIScreen mainScreen].bounds.size.height
 #define LGLColor(r, g, b) [UIColor colorWithRed:(r)/255.0 green:(g)/255.0 blue:(b)/255.0 alpha:1.0]
@@ -55,8 +57,10 @@
 
 -(void)createCalendarView
 {
+    XLPlainFlowLayout * layout = [[XLPlainFlowLayout alloc] init];
+    layout.naviHeight = 0.0;
     //布局
-    UICollectionViewFlowLayout *layout=[[UICollectionViewFlowLayout alloc] init];
+    //UICollectionViewFlowLayout *layout=[[UICollectionViewFlowLayout alloc] init];
     //设置item的宽高
     layout.itemSize=CGSizeMake(WIDTH / 7, WIDTH / 7);
     //设置滑动方向
@@ -67,7 +71,7 @@
     layout.minimumInteritemSpacing = 0.0f;
     //四周边距
     layout.sectionInset=UIEdgeInsetsMake(0, 0, 0, 0);
-    self.collectionView=[[UICollectionView alloc] initWithFrame:CGRectMake(0, 104, WIDTH, HEIGHT - 104) collectionViewLayout:layout];
+    self.collectionView=[[UICollectionView alloc] initWithFrame:CGRectMake(0, 103, WIDTH, HEIGHT - 103) collectionViewLayout:layout];
     self.collectionView.backgroundColor=[UIColor whiteColor];
     self.collectionView.delegate=self;
     self.collectionView.dataSource=self;

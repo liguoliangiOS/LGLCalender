@@ -23,6 +23,7 @@
 		21B4771F1DADE707003B5129 /* LGLHeaderView.m in Sources */ = {isa = PBXBuildFile; fileRef = 21B477151DADE707003B5129 /* LGLHeaderView.m */; };
 		21B477201DADE707003B5129 /* LGLWeekView.m in Sources */ = {isa = PBXBuildFile; fileRef = 21B477171DADE707003B5129 /* LGLWeekView.m */; };
 		21B477211DADE707003B5129 /* UIView+Frame.m in Sources */ = {isa = PBXBuildFile; fileRef = 21B477191DADE707003B5129 /* UIView+Frame.m */; };
+		21B4772C1DAE282E003B5129 /* XLPlainFlowLayout.m in Sources */ = {isa = PBXBuildFile; fileRef = 21B4772B1DAE282E003B5129 /* XLPlainFlowLayout.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -75,6 +76,8 @@
 		21B477171DADE707003B5129 /* LGLWeekView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = LGLWeekView.m; sourceTree = "<group>"; };
 		21B477181DADE707003B5129 /* UIView+Frame.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIView+Frame.h"; sourceTree = "<group>"; };
 		21B477191DADE707003B5129 /* UIView+Frame.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIView+Frame.m"; sourceTree = "<group>"; };
+		21B4772A1DAE282E003B5129 /* XLPlainFlowLayout.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = XLPlainFlowLayout.h; sourceTree = "<group>"; };
+		21B4772B1DAE282E003B5129 /* XLPlainFlowLayout.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = XLPlainFlowLayout.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -168,6 +171,7 @@
 		21B477091DADE707003B5129 /* LGLCalender */ = {
 			isa = PBXGroup;
 			children = (
+				21B477291DAE282E003B5129 /* XLPlainFlowLayout */,
 				21B4770A1DADE707003B5129 /* LGLCalendarDate.h */,
 				21B4770B1DADE707003B5129 /* LGLCalendarDate.m */,
 				21B4770C1DADE707003B5129 /* LGLCalenderCell.h */,
@@ -186,6 +190,15 @@
 				21B477191DADE707003B5129 /* UIView+Frame.m */,
 			);
 			path = LGLCalender;
+			sourceTree = "<group>";
+		};
+		21B477291DAE282E003B5129 /* XLPlainFlowLayout */ = {
+			isa = PBXGroup;
+			children = (
+				21B4772A1DAE282E003B5129 /* XLPlainFlowLayout.h */,
+				21B4772B1DAE282E003B5129 /* XLPlainFlowLayout.m */,
+			);
+			path = XLPlainFlowLayout;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -325,6 +338,7 @@
 				21B4771F1DADE707003B5129 /* LGLHeaderView.m in Sources */,
 				21B476DE1DADE6E8003B5129 /* ViewController.m in Sources */,
 				21B4771C1DADE707003B5129 /* LGLCalenderModel.m in Sources */,
+				21B4772C1DAE282E003B5129 /* XLPlainFlowLayout.m in Sources */,
 				21B4771E1DADE707003B5129 /* LGLCalenderViewController.m in Sources */,
 				21B476DB1DADE6E8003B5129 /* AppDelegate.m in Sources */,
 				21B4771B1DADE707003B5129 /* LGLCalenderCell.m in Sources */,
@@ -561,6 +575,7 @@
 				21B477021DADE6E8003B5129 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		21B477031DADE6E8003B5129 /* Build configuration list for PBXNativeTarget "LGLCalender-DemoTests" */ = {
 			isa = XCConfigurationList;
@@ -569,6 +584,7 @@
 				21B477051DADE6E8003B5129 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		21B477061DADE6E8003B5129 /* Build configuration list for PBXNativeTarget "LGLCalender-DemoUITests" */ = {
 			isa = XCConfigurationList;
@@ -577,6 +593,7 @@
 				21B477081DADE6E8003B5129 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
