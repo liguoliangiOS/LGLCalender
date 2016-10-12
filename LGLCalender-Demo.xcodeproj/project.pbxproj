@@ -24,6 +24,7 @@
 		21B477201DADE707003B5129 /* LGLWeekView.m in Sources */ = {isa = PBXBuildFile; fileRef = 21B477171DADE707003B5129 /* LGLWeekView.m */; };
 		21B477211DADE707003B5129 /* UIView+Frame.m in Sources */ = {isa = PBXBuildFile; fileRef = 21B477191DADE707003B5129 /* UIView+Frame.m */; };
 		21B4772C1DAE282E003B5129 /* XLPlainFlowLayout.m in Sources */ = {isa = PBXBuildFile; fileRef = 21B4772B1DAE282E003B5129 /* XLPlainFlowLayout.m */; };
+		21B4772E1DAE2EDF003B5129 /* lglCalendar.gif in Resources */ = {isa = PBXBuildFile; fileRef = 21B4772D1DAE2EDE003B5129 /* lglCalendar.gif */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -78,6 +79,7 @@
 		21B477191DADE707003B5129 /* UIView+Frame.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIView+Frame.m"; sourceTree = "<group>"; };
 		21B4772A1DAE282E003B5129 /* XLPlainFlowLayout.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = XLPlainFlowLayout.h; sourceTree = "<group>"; };
 		21B4772B1DAE282E003B5129 /* XLPlainFlowLayout.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = XLPlainFlowLayout.m; sourceTree = "<group>"; };
+		21B4772D1DAE2EDE003B5129 /* lglCalendar.gif */ = {isa = PBXFileReference; lastKnownFileType = image.gif; path = lglCalendar.gif; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -133,6 +135,7 @@
 				21B476DC1DADE6E8003B5129 /* ViewController.h */,
 				21B476DD1DADE6E8003B5129 /* ViewController.m */,
 				21B476DF1DADE6E8003B5129 /* Main.storyboard */,
+				21B4772D1DAE2EDE003B5129 /* lglCalendar.gif */,
 				21B476E21DADE6E8003B5129 /* Assets.xcassets */,
 				21B477091DADE707003B5129 /* LGLCalender */,
 				21B476E41DADE6E8003B5129 /* LaunchScreen.storyboard */,
@@ -307,6 +310,7 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				21B4772E1DAE2EDF003B5129 /* lglCalendar.gif in Resources */,
 				21B476E61DADE6E8003B5129 /* LaunchScreen.storyboard in Resources */,
 				21B476E31DADE6E8003B5129 /* Assets.xcassets in Resources */,
 				21B476E11DADE6E8003B5129 /* Main.storyboard in Resources */,
